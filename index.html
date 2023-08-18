@@ -34,17 +34,17 @@
             <h2 class="text-center text-xl font-semibold">Triangle</h2>
             <p class="text-center">Area (A) = 0.5 X b X h</p>
             <div>
-              <p class="text-center">Area: 0 cm <sup>2</sup></p>
+              <p class="text-center">Area: <span id="triangle-result">0</span> cm <sup>2</sup></p>
             </div>
             <div class="card-actions justify-center">
               <div class="flex items-center justify-center">
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
+                <input id="base" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="b">
                 <p class="m-1">cm</p>
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
+                <input id="height" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h"/>
                 <p>cm</p>
               </div>
               
-              <button class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
+              <button id="traingle-btn" class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
             </div>
           </div>
         </div>
@@ -57,19 +57,19 @@
           </figure>
           <div class="card-body">
             <h2 class="text-center text-xl font-semibold">Rectangle</h2>
-            <p class="text-center">Area (A) = w I</p>
+            <p class="text-center">Area (A) = W X I</p>
             <div>
-              <p class="text-center">Area: 0 cm <sup>2</sup></p>
+              <p class="text-center">Area: <span id="rectangle-result">0</span> cm <sup>2</sup></p>
             </div>
             <div class="card-actions justify-center">
               <div class="flex items-center justify-center">
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
+                <input id="width" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w">
                 <p class="m-1">cm</p>
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
+                <input id="length" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="l"/>
                 <p>cm</p>
               </div>
               
-              <button class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
+              <button id="rectangle-btn" class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
             </div>
           </div>
         </div>
@@ -183,6 +183,8 @@
       <p class="text-base text-center font-bold underline">Ariea Calculation</p>
     </div>
   </main>
+  <script src="./JavaScript/main.js"></script>
+  <script src="./JavaScript/index.js"></script>
 </body>
 
 </html>
