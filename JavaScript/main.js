@@ -7,8 +7,8 @@ const getNumber = (a) =>{
 }
 
 const setNum = (element, area)=>{
-  document.getElementById(element).innerText = area;
-
+  const elementBody =  document.getElementById(element);
+  elementBody.innerText = area;
 }
 
 const validation = (a, b) =>{

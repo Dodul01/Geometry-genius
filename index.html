@@ -82,19 +82,19 @@
           </figure>
           <div class="card-body">
             <h2 class="text-center text-xl font-semibold">Parallelogram</h2>
-            <p class="text-center">Area (A) = b h</p>
+            <p class="text-center">Area (A) = b X h</p>
             <div>
-              <p class="text-center">Area: 0 cm <sup>2</sup></p>
+              <p class="text-center">Area: <span id="parallelogram-result">0</span> cm <sup>2</sup></p>
             </div>
             <div class="card-actions justify-center">
               <div class="flex items-center justify-center">
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
+                <input id="parallelogram-base" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="b">
                 <p class="m-1">cm</p>
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
+                <input id="parallelogram-height" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h"/>
                 <p>cm</p>
               </div>
               
-              <button class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
+              <button id="parallelogram-btn" class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
             </div>
           </div>
         </div>
@@ -107,19 +107,19 @@
           </figure>
           <div class="card-body">
             <h2 class="text-center text-xl font-semibold">Rhombus</h2>
-            <p class="text-center">Rhombus</p>
+            <p class="text-center">Area (A) = 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
             <div>
-              <p class="text-center">Area: 0 cm <sup>2</sup></p>
+              <p class="text-center">Area <span id="rhombus-result">0</span>cm <sup>2</sup></p>
             </div>
             <div class="card-actions justify-center">
               <div class="flex items-center justify-center">
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
+                <input id="rhombus-d1" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
                 <p class="m-1">cm</p>
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
+                <input id="rhombus-d2" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
                 <p>cm</p>
               </div>
               
-              <button class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
+              <button id="rhombus-btn" class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
             </div>
           </div>
         </div>
@@ -132,19 +132,19 @@
           </figure>
           <div class="card-body">
             <h2 class="text-center text-xl font-semibold">Pentagon</h2>
-            <p class="text-center">Area (A) = 0.5 p b</p>
+            <p class="text-center">Area (A) = 0.5 X p X b</p>
             <div>
-              <p class="text-center">Area: 0 cm <sup>2</sup></p>
+              <p class="text-center">Area: <span id="pentagon-result">0</span>  cm <sup>2</sup></p>
             </div>
             <div class="card-actions justify-center">
               <div class="flex items-center justify-center">
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
+                <input id="pentagon-p" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="p">
                 <p class="m-1">cm</p>
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
+                <input id="pentagon-b" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
                 <p>cm</p>
               </div>
               
-              <button class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
+              <button id="pentagon-btn" class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
             </div>
           </div>
         </div>
@@ -157,19 +157,19 @@
           </figure>
           <div class="card-body">
             <h2 class="text-center text-xl font-semibold">Ellipse</h2>
-            <p class="text-center">Area (A) = ab</p>
+            <p class="text-center">Area (A) = πab</p>
             <div>
-              <p class="text-center">Area: 0 cm <sup>2</sup></p>
+              <p class="text-center">Area: <span id="ellipse-result">0</span>cm <sup>2</sup></p>
             </div>
             <div class="card-actions justify-center">
               <div class="flex items-center justify-center">
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="h">
+                <input id="ellipseA" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="a">
                 <p class="m-1">cm</p>
-                <input class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="w"/>
+                <input id="ellipseB" class="bg-gray-200 w-10 text-center rounded" type="text" placeholder="b"/>
                 <p>cm</p>
               </div>
               
-              <button class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
+              <button id="ellipse-btn" class="btn btn-primary w-full bg-blue-500 border-none hover:bg-blue-800">Calculate</button>
             </div>
           </div>
         </div>
